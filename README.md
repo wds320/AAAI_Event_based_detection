@@ -1,4 +1,4 @@
-# AAAI_Event_based_detection
+# AAAI_DMANet
 - Paper: Dual Memory Aggregation Network for Event-based Object Detection with
 Learnable Representation.
 

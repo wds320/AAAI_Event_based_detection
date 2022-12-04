@@ -39,6 +39,34 @@ Links: [https://pan.baidu.com/s/1YawxZFJhQWVgLye9zZtysA](https://pan.baidu.com/s
 
 Password: c6j9 
 
+- Dataset structure
+```
+prophesee_dlut   
+├── test
+│   ├── testfilelist00
+│   ├── testfilelist01
+│   └── testfilelist02
+├── train
+│   ├── trainfilelist00
+│   ├── trainfilelist01
+│   ├── trainfilelist02
+│   ├── trainfilelist03
+│   ├── trainfilelist04
+│   ├── trainfilelist05
+│   ├── trainfilelist06
+│   ├── trainfilelist07
+│   ├── trainfilelist08
+│   ├── trainfilelist09
+│   ├── trainfilelist10
+│   ├── trainfilelist11
+│   ├── trainfilelist12
+│   ├── trainfilelist13
+│   └── trainfilelist14
+└── val
+    ├── valfilelist00
+    └── valfilelist01
+```
+
 
 ## Visualization results on 1 Mpx Auto-Detection Sub Dataset
 ![图片](https://github.com/wds320/AAAI_Event_based_detection/blob/main/case.png)

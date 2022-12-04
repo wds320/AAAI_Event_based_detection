@@ -77,11 +77,11 @@ python data_check_npz.py
 Change settings.yaml, including *dataset_path* and *save_dir*.  
 - 1. Training
 ```
-python train_DMANet.py
+python train_DMANet.py --settings_file=$YOUR_YAML_PATH
 ```
 - 2. Testing
 ```
-python test.py --weight=$MODEL_PATH
+python test.py --weight=$YOUR_MODEL_PATH
 ```
 
 

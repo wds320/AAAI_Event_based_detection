@@ -2,10 +2,6 @@
 The code will release soon!
 
 
-## Visualization results on 1 Mpx Auto-Detection Sub Dataset
-![图片](https://github.com/wds320/AAAI_Event_based_detection/blob/main/case.png)
-
-
 ## Installation
 - Step1. Install DMANet
 ```
@@ -19,6 +15,11 @@ pip install -r requirements.txt
 
 
 ## Data preparation
+
+
+
+## Visualization results on 1 Mpx Auto-Detection Sub Dataset
+![图片](https://github.com/wds320/AAAI_Event_based_detection/blob/main/case.png)
 
 
 

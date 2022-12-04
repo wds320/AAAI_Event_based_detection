@@ -74,7 +74,7 @@ python data_check_npz.py
 
 
 ## Training & Testing
-Change settings.yaml, including $dataset_path$ and $save_dir$. 
+Change settings.yaml, including $dataset_path$ and $save_dir$.  
 - 1. Training
 ```
 python train_DMANet.py

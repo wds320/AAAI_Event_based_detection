@@ -73,6 +73,12 @@ python data_check_npz.py
 ```
 
 
+## Training & Testing
+- 1. Training
+
+- 2. Testing
+
+
 ## Visualization results on 1 Mpx Auto-Detection Sub Dataset
 ![图片](https://github.com/wds320/AAAI_Event_based_detection/blob/main/case.png)
 

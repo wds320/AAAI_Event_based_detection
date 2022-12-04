@@ -10,9 +10,11 @@ The code will release soon!
 - Step1. Install DMANet
 ```
 conda create -n dmanet python=3.6
-
 conda activate dmanet
+conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit=10.1 -c pytorch
+pip install -r requirements.txt
 ```
+- Step2. Install Apex (Mixed Precision Training)
 
 
 

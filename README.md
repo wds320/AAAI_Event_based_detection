@@ -69,7 +69,7 @@ prophesee_dlut
 
 - Dataset Visualization
 ```
-python 
+data_check_npz.py
 ```
 
 

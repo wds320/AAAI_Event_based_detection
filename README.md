@@ -27,6 +27,12 @@ python setup.py install
 
 
 ## Data preparation
+- 1 Mpx Auto-Detection Sub Dataset
+Since the groundtruth of the [Prophesee dataset](https://www.prophesee.ai/2020/11/24/automotive-megapixel-event-based-dataset/) is obtained automatically by applying an RGB-based detector in the stereo recording setting, there are some geometric errros such as misalignment and semantic errors caused by wrong detection of the detector with the ground truth. We also found that there are some $mosaic$ events in this dataset which might be caused by flickering as explained by authors of that dataset. Therefore, we remove theses events and incorrect labels manually by visualizing the whole dataset. The challenging scenario in this work is defined as the case that movement-to-still happens, where only few events are produced and little information could be used by the model. Precise statistics of the 1 Mpx Auto-
+Detection Sub Dataset is shown in Tab. 2.
+![图片](https://github.com/wds320/AAAI_Event_based_detection/blob/main/subdataset.png)
+- Download 1 Mpx Auto-Detection Sub Dataset. (Total 268GB)
+
 
 
 

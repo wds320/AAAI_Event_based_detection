@@ -74,9 +74,14 @@ python data_check_npz.py
 
 
 ## Training & Testing
--1. Training
-
--2. Testing
+- 1. Training
+```
+python train_DMANet.py
+```
+- 2. Testing
+```
+python test.py --weight=$MODEL_PATH
+```
 
 
 ## Visualization results on 1 Mpx Auto-Detection Sub Dataset

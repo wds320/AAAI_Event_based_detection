@@ -100,7 +100,7 @@ We provided a trained model [here](https://pan.baidu.com/s/1kqfk1gxxqtNHeg75z-EW
 
 ## Related Repos
 - RetianNet implementation: [https://github.com/yhenon/pytorch-retinanet](https://github.com/yhenon/pytorch-retinanet)
-- PointPillars implementation:
-- Prophesee
-- Event-based Asynchronous Sparse Convolutional Networks
+- PointPillars implementation: [https://github.com/SmallMunich/nutonomy_pointpillars](https://github.com/SmallMunich/nutonomy_pointpillars)
+- Prophesee's Automotive Dataset Toolbox: [https://github.com/prophesee-ai/prophesee-automotive-dataset-toolbox](https://github.com/prophesee-ai/prophesee-automotive-dataset-toolbox)
+- Event-based Asynchronous Sparse Convolutional Networks: [https://github.com/uzh-rpg/rpg_asynet](https://github.com/uzh-rpg/rpg_asynet)
 

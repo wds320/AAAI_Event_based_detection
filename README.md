@@ -83,7 +83,7 @@ python train_DMANet.py --settings_file=$YOUR_YAML_PATH
 ```
 python test.py --weight=$YOUR_MODEL_PATH
 ```
-We provided a trained model here. 
+We provided a trained model [here](https://pan.baidu.com/s/1kqfk1gxxqtNHeg75z-EWEg). (Password：6r06)
 
 
 ## Visualization results on 1 Mpx Auto-Detection Sub Dataset

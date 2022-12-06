@@ -1,0 +1,8 @@
+numpy
+numba
+pyyaml
+tensorboard
+opencv-python
+tqdm
+matplotlib
+

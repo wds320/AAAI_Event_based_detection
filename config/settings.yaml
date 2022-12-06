@@ -1,0 +1,42 @@
+dataset:
+  name: "Prophesee"  # 7 classes
+  # ["histogram", "event_queue", "voxel_grid"]
+  event_representation: "voxel_grid"
+  prophesee:
+    dataset_path: "/home/wds/Desktop/prophesee_dlut"   # ./prophesee_dlut
+    object_classes: ['pedestrian', 'two wheeler', 'car', 'truck', 'bus', 'traffic sign', 'traffic light']
+    #  depth of resnet, [18, 34, 50, 101, 152]
+    depth: 18
+    height: 720
+    width: 1280
+    resize: 512
+    voxel_size: [ 1, 1, 4 ]
+    max_num_points: 5
+    max_voxels: 100000
+    num_bins: 5
+    nr_input_channels: 8
+
+dir:
+  log: "log/"
+model:
+  # ["retinanet", "RED"]
+  model_name: "dmanet"
+optim:
+  seq_len: 10
+  epoch: 30
+  batch_size: 2
+  init_lr: 2e-4
+  exponential_decay: 0.98
+  warm: 1
+  tbptt: [-1]
+checkpoint:
+  save_dir: "/home/wds/DMANet"  # ./DMANet
+  resume_training: False
+  resume_file: ""
+  # Networks trained for classification can be reused as starting point for object detection networks on trained the same dataset
+  use_pretrained: False
+  pretrained_model: ""
+hardware:
+  # num_cpu_workers: {-1: auto, 0: main thread, >0: ...}
+  num_cpu_workers: -1
+  gpu_device: 0  # [0 or "cpu"]

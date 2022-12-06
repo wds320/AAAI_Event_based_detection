@@ -99,7 +99,7 @@ We provided a trained model [here](https://pan.baidu.com/s/1kqfk1gxxqtNHeg75z-EW
 
 
 ## Related Repos
-- RetianNet implementation: 
+- RetianNet implementation: [https://github.com/yhenon/pytorch-retinanet](https://github.com/yhenon/pytorch-retinanet)
 - PointPillars implementation:
 - Prophesee
 - Event-based Asynchronous Sparse Convolutional Networks

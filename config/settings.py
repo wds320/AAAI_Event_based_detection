@@ -29,7 +29,6 @@ class Settings:
             # --- dataset ---
             dataset = settings["dataset"]
             self.dataset_name = dataset["name"]
-            self.event_representation = dataset["event_representation"]
             if self.dataset_name == "Prophesee":
                 dataset_specs = dataset["prophesee"]
             self.dataset_path = dataset_specs["dataset_path"]

@@ -25,9 +25,11 @@ class Prophesee:
         :param object_classes: list of string containing objects or "all" for all classes
         :param height: height of dataset image
         :param width: width of dataset image
-        :param augmentation: flip, shift and random window start for training
         :param mode: "training", "testing" or "validation"
-        :param event_representation: "histogram","event_queue" or "voxel_grid"
+        :param voxel_size: 
+        :param max_num_points: 
+        :param max_voxels: 
+        :param num_bins: 
         """
         if mode == "training":
             mode = "train"

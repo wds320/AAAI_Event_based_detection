@@ -1,7 +1,5 @@
 dataset:
   name: "Prophesee"  # 7 classes
-  # ["histogram", "event_queue", "voxel_grid"]
-  event_representation: "voxel_grid"
   prophesee:
     dataset_path: "/home/wds/Desktop/prophesee_dlut"   # ./prophesee_dlut
     object_classes: ['pedestrian', 'two wheeler', 'car', 'truck', 'bus', 'traffic sign', 'traffic light']

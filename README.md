@@ -101,8 +101,8 @@ Please cite the following paper if you use this repo in your research:
 @inproceedings{dmanet,
   title={Dual Memory Aggregation Network for Event-Based Object Detection with Learnable Representation},
   author={Wang, Dongsheng and Jia, Xu and Zhang, Yang and Zhang, Xinyu and Wang, Yaoyuan and Zhang, Ziyang and Wang, Dong and Lu, Huchuan},  
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  year      = {2023}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2023}
 }
 ```
 
